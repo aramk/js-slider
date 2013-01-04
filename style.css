@@ -1,0 +1,20 @@
+/* This styling isn't needed for the slider */
+.content {
+	width: 800px;
+	margin: 0 auto;
+}
+.content,
+.content a {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+.content a {
+	margin: 0;
+	color: blue;
+}
+p, ul {
+	margin-bottom: 18px;
+}
+ul {
+	margin-left: 40px;
+}

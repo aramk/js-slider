@@ -1,0 +1,3 @@
+[submodule "Swipe"]
+	path = Swipe
+	url = git://github.com/bradbirdsall/Swipe.git
