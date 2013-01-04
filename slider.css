@@ -1,0 +1,57 @@
+/* This style builds on top of the one provided by Swipe */
+
+#slider-outer {
+	width: 700px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+}
+#slider {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ccc;
+}
+#slider,
+#slider-outer .nav,
+#slider ul,
+#slider li {
+    width: 100%;
+}
+#slider,
+#slider ul,
+#slider li {
+    height: 100%;
+    line-height: 200px;
+    text-align: center;
+}
+#slider ul,
+#slider li {
+    position: relative;
+}
+#slider-outer .nav {
+    height: 20px;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    text-align: center;
+}
+#slider-outer .nav .pointers {
+    display: inline-block;
+    /* IE */
+    *display: inline;
+    zoom: 1;
+}
+#slider-outer .nav .pointer {
+    width: 42px;
+    height: 8px;
+    background: #000;
+    opacity: 0.3;
+    float: left;
+    margin: 0 5px;
+}
+#slider-outer .nav .pointer-active {
+    background: #fff;
+    opacity: 1;
+}
