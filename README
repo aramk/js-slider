@@ -1,4 +1,4 @@
-Here's the simplest implementation of a JavaScript slider I've come across. It's now my default choice of sliders when I need something simple. and I thought I'd share it here. It's built with the lightweight Swipe slider and some of my own code:
+Here's the simplest implementation of a JavaScript slider I've come across. It's now my default choice of sliders when I need something simple. It's built with the lightweight Swipe slider and some of my own code:
 
 * Pagination that generates the right number of dots based on what's in the slider, supports clicking
 * Stops sliding when you hover over
